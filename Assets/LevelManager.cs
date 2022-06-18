@@ -18,20 +18,9 @@ public class LevelManager : MonoBehaviour
          Application.Quit();
     }
 
-    public void PauseMenu()
-    {
-        SceneManager.LoadScene(4);
-        Time.timeScale = 0f;
-    }
-
-     public void MainMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
-
     public void OptionMenu()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
 
      public void LevelTwo()
@@ -42,12 +31,6 @@ public class LevelManager : MonoBehaviour
     public void LevelThree()
     {
         SceneManager.LoadScene(3);
-    }
-
-     public void Resume()
-    {
-        SceneManager.LoadScene(1);
-        Time.timeScale = 1f;
     }
 
    
