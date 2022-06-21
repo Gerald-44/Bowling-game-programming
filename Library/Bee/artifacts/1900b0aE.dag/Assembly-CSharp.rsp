@@ -350,6 +350,7 @@
 "Assets/GameOver.cs"
 "Assets/LevelManager.cs"
 "Assets/PauseMenu.cs"
+"Assets/Scenes/coin.cs"
 -langversion:9.0
 
 /deterministic
