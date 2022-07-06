@@ -4,25 +4,18 @@ using UnityEngine;
 
 public class ballMovement : MonoBehaviour
 {
-   public float speed;
-
     private Rigidbody rb;
+    [SerializeField]
+    float speed;
 
     void Start()
     {
         rb=GetComponent<Rigidbody>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        //Allows player to move horizontally
-        float moveH=Input.GetAxis("Horizontal");
-
-        //Allows player to move vertically
-        float moveV=Input.GetAxis("Vertical");
-
-        Vector3 movement=new Vector3(moveH,0.0f,moveV);
-
-        rb.AddForce(movement*speed);
+       if(Input.GetKeyDown(KeyCode.Return))
+       rb.AddForce(Vector3.forward*speed)
     }
 }
