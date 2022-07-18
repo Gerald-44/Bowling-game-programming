@@ -7,7 +7,7 @@ public class coin : MonoBehaviour
 {
     
        [SerializeField] 
-       private float spinSpeed =10f;
+       private float spinSpeed =2f;
     
 
     // Update is called once per frame
