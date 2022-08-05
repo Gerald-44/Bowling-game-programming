@@ -15,4 +15,13 @@ public class coin : MonoBehaviour
     {
        transform.Rotate(0f, spinSpeed, 0f ,Space.World); 
     }
+    public void OnTriggerEnter(Collider other)
+    {
+      if (other.name == "Sphere")
+      {
+         
+         //Add 1 to points to
+         Destroy(gameObject);
+      }
+    }
 }
