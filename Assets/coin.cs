@@ -8,6 +8,7 @@ public class coin : MonoBehaviour
     
        [SerializeField] 
        private float spinSpeed =2f;
+       public static int canCount;
     
 
     // Update is called once per frame

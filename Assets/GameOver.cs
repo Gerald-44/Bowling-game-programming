@@ -8,10 +8,10 @@ using TMPro;
 public class GameOver : MonoBehaviour
 {
     public TMP_Text score;
-
     public void gameover(){
     gameObject.SetActive(true);
     score.text = "100 points";
+        
    }
 
    public void Restart(){
