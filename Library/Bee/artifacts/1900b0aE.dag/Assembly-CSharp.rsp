@@ -355,7 +355,6 @@
 "Assets/GameOver.cs"
 "Assets/LevelBoundary.cs"
 "Assets/LevelManager.cs"
-"Assets/NewBehaviourScript.cs"
 "Assets/PauseMenu.cs"
 -langversion:9.0
 
