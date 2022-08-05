@@ -19,7 +19,7 @@ public class coin : MonoBehaviour
     {
       if (other.name == "Sphere")
       {
-         
+         other.GetComponent<coinCollection>().points++;
          //Add 1 to points to
          Destroy(gameObject);
       }
